@@ -36,9 +36,10 @@ def turn(board)
 end
 
 def play(board)
-   index = 1
-    while index >= 9
+   loop do
+    counter = 0 
     turn(board)
+    counter >=9
     break
     index = index - 1
     end
