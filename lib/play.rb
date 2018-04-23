@@ -39,6 +39,7 @@ def play(board)
   counter = 9
     loop do
       turn(board)
+      break
      end
 end
 
