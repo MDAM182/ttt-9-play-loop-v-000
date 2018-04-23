@@ -34,7 +34,7 @@ def turn(board)
     turn(board)
   end
 end
-counter = 0
+counter = 9
 def play(board)
     loop do
     counter += 1
