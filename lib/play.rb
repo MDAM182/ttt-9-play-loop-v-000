@@ -36,11 +36,11 @@ def turn(board)
 end
 
 def play(board)
-counter = 1
+  counter = 1
     while counter <= 9
     counter -= 1
-    break
     turn(board)
+    break
   end
 end
 
