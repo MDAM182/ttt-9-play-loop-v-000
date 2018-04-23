@@ -36,10 +36,10 @@ def turn(board)
 end
 
 def play(board)
-  user_input = 1
-    while user_input >= 9
+   index = 1
+    while index >= 9
     turn(board)
-    user_input = user_input - 1
+    user_input = index - 1
     end
 end
 
